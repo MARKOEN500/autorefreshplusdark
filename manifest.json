@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "Icon/icon-19.png",
+      "default_popup": "popup.html",
+      "default_title": "Auto Refresh Plus"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/content_script.js", "js/blank.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Refresh a page automatically and get notified when keywords change.",
+   "homepage_url": "https://github.com/lomholdt/arp",
+   "icons": {
+      "128": "Icon/icon-64.png",
+      "48": "Icon/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYmmrW85MuIQTDUivqHOcOhPA+ThqWOM6Uh5/X0fnjmrjSVvL8uB579PbuIKAUxa1Td0tKCTMu4FubRc85edxR91QlRlxxUWFqxn+OFIIGAY5bcpP2utc/F6DptgjkXqoZ/9Ed7/xB/bETU8Z91M5/gnhoKEfA2fTs+WuaKXYnP011QjVwpCjb2TYBAJZmtDF1UUbnTisH7iSwzRr1dMeKlwOdFA+BAyKyuQUHaWgvzyMFuFk2JsjXdX4VjwJAZWLn4EePKkyV7+levJP7EwjTfWLMl24W4YnXg9BbHLgdXYNiLLup0/FTGMemMYr4NSsdEgAkgYYDkM7m/9jqULIQIDAQAB",
+   "manifest_version": 2,
+   "name": "Auto Refresh Plus",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webNavigation", "storage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.3.0",
+   "web_accessible_resources": [ "blank.html" ]
+}
