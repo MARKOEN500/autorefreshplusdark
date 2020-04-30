@@ -2,15 +2,15 @@ body {
     font: normal 12px Verdana, Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    background: #f1f1f1;
-    color: #222;
+    background: #323232;
+    color: #FFFFFF;
     -webkit-user-select:none;
     user-select:none;
     cursor:default;
     /*background-repeat: no-repeat;
     background-attachment: fixed;
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#444444));
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F8F1EB), to(#DFDBD2)); */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#787878), to(#787878));
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#787878), to(#787878)); */
 }
 
 header,nav,section,footer {
@@ -42,7 +42,7 @@ footer {
     width: 800px;
     margin: 10px auto 5px auto;
     clear: both;
-    color: #999;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ footer {
 		margin-top: 8px;
 		margin-bottom: 8px;
 		padding: 8px;
-		background: #FFFFFE;
+		background: #3E3E3E;
 		border: 0;
 		box-shadow: 0 0 6px rgba(0,0,0,0.1);
 		padding-left: 16px;
@@ -72,32 +72,32 @@ h1 {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 3px 0px 0px 38px;
-    color:#444;
+    color:#FFFFFF;
     -webkit-font-smoothing:antialiased; text-shadow: 0 0 2px rgba(68, 68, 68, .1);
 } 
 
 h1 span {
-	color: #777;
+	color: #929292;
 	font-weight: normal;
-	color: #1975C6;
+	color: #CCCCCC;
 	text-shadow: 0 0 2px rgba(25, 117, 198, .3);
 }
 
 h1 .options-text {
-	color: #B4B4B4;
+	color: #D2D2D2;
 	font-weight: bold;
 	text-shadow: 0 0 2px rgba(180, 180, 180, .3);
 }
 
 h2 {
-    color: #444444;
+    color: #FFFFFF;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0px;
 }
 
 h3 {
-    color: #666666;
+    color: #FFFFFF;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 5px 0 0 0;
@@ -108,12 +108,12 @@ h3 {
     width: 100px;
     height: 30px;
     padding: 3px 15px;
-    color: #f9f9f9;
+    color: #000000;
     font-size: 14px;
     font-weight: bold;
-    border: 1px solid #2469BD;
+    border: 1px solid #FFFFFF;
     border-radius: 3px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#2CA2E0), to(#1D5EAD));
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E5E5E5));
     margin-right: 8px;
     margin-left: 8px;
     outline: 0;
@@ -126,20 +126,20 @@ h3 {
 
 .bordertopbottom {
     position: relative;
-    border-top: 1px solid #DDD;
+    border-top: 1px solid #424242;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-top-color: #DDD;
-    border-bottom-color: #DDD;
+    border-top-color: #424242;
+    border-bottom-color: #424242;
 }
 
 .borderbottom {
     position: relative;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #DDD;
+    border-bottom-color: #424242;
 }
 
 .style_center {
@@ -178,11 +178,11 @@ nav ul#tabs li a {
     border-top-left-radius: 2px 2px;
     border-top-right-radius: 2px 2px;
     margin-left: 1px;
-    border-left: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    border-top: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    color: #000;
+    border-left: 1px solid #787878;
+    border-right: 1px solid #787878;
+    border-top: 1px solid #787878;
+    border-bottom: 1px solid #787878;
+    color: #787878;
     height: 33px;
     margin-right: 2px;
     float: left;
@@ -193,7 +193,7 @@ nav ul#tabs li a {
     position: relative;
     z-index: 20;
     text-decoration: none;
-    color: #808080;
+    color: #787878;
     font-size: 12px;
     font-weight: bold;
     font-family: arial,verdana,sans-serif;
@@ -201,21 +201,21 @@ nav ul#tabs li a {
 
 nav ul#tabs li a:hover {
     text-decoration: none;
-    color: #000000;
-    background-color: #F1F0ee;
-    background: -webkit-gradient( linear, left bottom, left top, color-stop(1, rgb(218,229,230)), color-stop(0, rgb(255,255,255)));
+    color: #787878;
+    background-color: #787878;
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(1, rgb(787878)), color-stop(0, rgb(787878)));
 }
 
 nav ul#tabs li a.selected {
     margin-left: 1px;
-    border-left: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    border-top: 1px solid #DDD;
+    border-left: 1px solid #787878;
+    border-right: 1px solid #787878;
+    border-top: 1px solid #787878;
     padding: 0 20px;
     margin-right: 2px;
     margin-top: 1px;
     float: left;
-    background: -webkit-gradient( linear, left bottom, left top, color-stop(1, rgb(255,255,255)), color-stop(0, rgb(255,255,255)));
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(1, rgb(787878)), color-stop(0, rgb(787878)));
     repeat-x left top; cursor: pointer;
     border-bottom: 0;
     height: 33px;
@@ -340,7 +340,7 @@ input[type=text], input[type=number] {
 	margin-left: -100px;
 	bottom:150px;
 	background: rgba(0, 138, 212, 0.83);
-	color: #f1f1f1;
+	color: #787878;
 	font-size: 40px;
 	text-align: center;
 	line-height: 200px;
