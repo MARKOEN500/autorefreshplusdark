@@ -20,7 +20,6 @@
       "128": "Icon/icon-64.png",
       "48": "Icon/icon-48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYmmrW85MuIQTDUivqHOcOhPA+ThqWOM6Uh5/X0fnjmrjSVvL8uB579PbuIKAUxa1Td0tKCTMu4FubRc85edxR91QlRlxxUWFqxn+OFIIGAY5bcpP2utc/F6DptgjkXqoZ/9Ed7/xB/bETU8Z91M5/gnhoKEfA2fTs+WuaKXYnP011QjVwpCjb2TYBAJZmtDF1UUbnTisH7iSwzRr1dMeKlwOdFA+BAyKyuQUHaWgvzyMFuFk2JsjXdX4VjwJAZWLn4EePKkyV7+levJP7EwjTfWLMl24W4YnXg9BbHLgdXYNiLLup0/FTGMemMYr4NSsdEgAkgYYDkM7m/9jqULIQIDAQAB",
    "manifest_version": 2,
    "name": "Auto Refresh Plus",
    "options_page": "options.html",
