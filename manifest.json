@@ -15,7 +15,7 @@
    } ],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
    "description": "Refresh a page automatically and get notified when keywords change.",
-   "homepage_url": "https://github.com/lomholdt/arp",
+   "homepage_url": "https://github.com/MARKOEN500/autorefreshplusdark",
    "icons": {
       "128": "Icon/icon-64.png",
       "48": "Icon/icon-48.png"
