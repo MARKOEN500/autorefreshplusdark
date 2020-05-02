@@ -324,7 +324,7 @@ function show_notification(pmpattern, check_content, onclick) {
 	var period = time[1] < 12 ? 'a.m.' : 'p.m.'; // The period of the day.
 	var options = {
 	  type: "basic", // hour + ':' + time[2] + ' ' + period,
-	  title: action + " the target text! - ARP",
+	  title: action + " the target text.",
 	  message: "\"" + check_content  + "\"",
 	  iconUrl: "Icon/icon-80.png",
 	  contextMessage: "Click on this box to see the tab.",
