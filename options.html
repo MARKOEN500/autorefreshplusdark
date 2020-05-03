@@ -90,7 +90,7 @@ fieldset {
 			<td width="180px">
 			<label for="pdurl">Predefined URL:</label>
 			</td>
-			<td style="text-align:left;"><input type="text" name="pdurl" id="pdurl" size="80" value="" placeholder="Refresh this URL instead of the current tab's URL (include https://) (e.g. https://www.google.com)"></td>
+			<td style="text-align:left;"><input type="text" name="pdurl" id="pdurl" size="80" value="" placeholder="Refresh this URL instead of the current tab's URL (e.g. https://www.google.com)"></td>
 			</tr>
 		</tbody></table>
 		</div>
@@ -157,7 +157,8 @@ fieldset {
 			<input type="radio" id="pmsound01" name="pmsound" class="pmsound" checked><label for="pmsound01">&nbsp;Never play sound</label><br/>
 			<input type="radio" id="pmsound02" name="pmsound" class="pmsound"><label for="pmsound02">&nbsp;Play sound candidate 1 (1 second)</label><br/>
 			<input type="radio" id="pmsound03" name="pmsound" class="pmsound"><label for="pmsound03">&nbsp;Play sound candidate 2 (6 seconds)</label><br/>
-			<input type="radio" id="pmsound04" name="pmsound" class="pmsound"><label for="pmsound04">&nbsp;Play sound from URL:</label>&nbsp;<input type="text" name="soundurl" id="soundurl" size="53" value="" placeholder="e.g. www.example.com/sound.mp3"><br/>
+			<input type="radio" id="pmsound04" name="pmsound" class="pmsound"><label for="pmsound04">&nbsp;Play sound from URL:</label>&nbsp;<input type="text" name="soundurl" id="soundurl" size="56" value="" placeholder="e.g. https://www.example.com/sound.mp3"><br/>
+			<br></br>
 			Volume: <input type="range" id="soundvolume" min="0" max="1" step="0.01"> <button id="test-play">Test Play</button>
 			</td>
 			</tr>
