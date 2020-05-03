@@ -130,7 +130,7 @@ function read_options(){
 
 
 function show_save_animation() {
-  alert('Settings were saved.');
+  alert('Settings have been saved.');
 }
 
 var sound = new Audio();
